@@ -1,0 +1,22 @@
+{
+  "name": "NexusCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of NexusCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AiDco/NexusCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AiDco": "karmanov.dm@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/AiDco/NexusCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NexusCalendar/Classes/**/*"
+}

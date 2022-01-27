@@ -1,0 +1,6 @@
+framework module NexusCalendar {
+  umbrella header "NexusCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

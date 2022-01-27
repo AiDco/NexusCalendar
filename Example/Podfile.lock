@@ -1,0 +1,16 @@
+PODS:
+  - NexusCalendar (0.1.0)
+
+DEPENDENCIES:
+  - NexusCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  NexusCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NexusCalendar: 91651f024646ab5ccaa25cb8736cd7dfc08f279b
+
+PODFILE CHECKSUM: 80e3354f51c536a496dfbaa604590cba716d8da4
+
+COCOAPODS: 1.11.2

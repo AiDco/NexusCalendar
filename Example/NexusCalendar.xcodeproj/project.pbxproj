@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		14A63C4EB59210D54C6F9939 /* Pods-NexusCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexusCalendar_Example.debug.xcconfig"; path = "Target Support Files/Pods-NexusCalendar_Example/Pods-NexusCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27B0F66B65289AF03A23288C /* Pods_NexusCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NexusCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43CE9847CC7D95DD604C6AA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4456C0410C7F576AF1C71D3B /* NexusCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NexusCalendar.podspec; path = ../NexusCalendar.podspec; sourceTree = "<group>"; };
+		43CE9847CC7D95DD604C6AA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4456C0410C7F576AF1C71D3B /* NexusCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NexusCalendar.podspec; path = ../NexusCalendar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* NexusCalendar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexusCalendar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* NexusCalendar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexusCalendar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7CE2504EB9A1A8415F72D911 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7CE2504EB9A1A8415F72D911 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AD3008946AB5C4A856D85EA7 /* Pods-NexusCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexusCalendar_Tests.release.xcconfig"; path = "Target Support Files/Pods-NexusCalendar_Tests/Pods-NexusCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8F92F388C2E48022C16721F /* Pods-NexusCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexusCalendar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NexusCalendar_Tests/Pods-NexusCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1EFC08B2A3EC964D351B751 /* Pods-NexusCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexusCalendar_Example.release.xcconfig"; path = "Target Support Files/Pods-NexusCalendar_Example/Pods-NexusCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				B8F92F388C2E48022C16721F /* Pods-NexusCalendar_Tests.debug.xcconfig */,
 				AD3008946AB5C4A856D85EA7 /* Pods-NexusCalendar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
